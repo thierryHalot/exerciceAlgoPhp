@@ -9,10 +9,10 @@ $i = 0;
 while($i < 10){
 
 //j'insere des boolean vrai à chaque itération
-$tableau[$i] = "tata";
+$tableau[$i] = true;
 
 
-echo $tableau[$i]. " index : ". $i . " ;";
+//echo $tableau[$i]. " index : ". $i . " ;";
 $i++;
 }
 
@@ -28,10 +28,32 @@ $i = 0;
 while($i < 10){
 
 //j'insere des boolean vrai à chaque itération
-    $tableau[$i] = "toto";
+    $tableau[$i] = false;
 
 
-    echo $tableau[$i]. " index : ". $i . " ;";
+    //echo $tableau[$i]. " index : ". $i . " ;";
+    $i++;
+}
+
+
+//------------------------troisieme partie ---------------------------------------------------------------------
+
+
+$i = 0;
+
+//ma longueur du tableau est de 10,donc je boucle 10 fois
+while($i < 10){
+
+
+    if($i%2 == 0) {
+        $tableau[$i] = true;
+
+    }else{
+
+        $tableau[$i] = false;
+    }
+
+    //echo $tableau[$i]. " index : ". $i . " ;";
     $i++;
 }
 
