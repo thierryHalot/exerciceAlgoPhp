@@ -2,19 +2,16 @@
 
 
 
-function morningLive($morning)
+function morningLive($morning,$phraseMatin,$phraseDuSoir)
 {
-    $matin = "Bonjour";
-    $soir = "Bonsoir";
-
 
 
     if ($morning) {
 
-        echo "$matin vous";
+        echo "$phraseMatin";
     } else if (!$morning) {
 
-        echo "$soir vous";
+        echo "$phraseDuSoir";
 
 
     }
@@ -23,5 +20,5 @@ function morningLive($morning)
 
 $morning = true;
 
-morningLive($morning);
+morningLive($morning,"c'est le matin", "c'est le soir");
 
