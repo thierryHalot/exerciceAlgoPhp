@@ -27,7 +27,7 @@ function dessineUnCarre($cote)
                     } else {
 
 //remplit les zone qui ne sont pas des croix
-                        echo "o";
+                        echo " ";
 
                     }
 
@@ -40,4 +40,4 @@ function dessineUnCarre($cote)
     }
 }
 
-dessineUnCarre(20);
+dessineUnCarre(10);
