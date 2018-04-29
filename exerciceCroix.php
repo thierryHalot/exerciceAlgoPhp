@@ -25,7 +25,7 @@ function dessineUnCarre($cote)
 
                         echo "X";
                     } else {
-                        
+
 //remplit les zone qui ne sont pas des croix
                         echo "o";
 
